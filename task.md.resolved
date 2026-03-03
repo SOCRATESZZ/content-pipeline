@@ -1,0 +1,65 @@
+# AI Content Pipeline — Build Tasks
+
+## Phase 1: Foundation
+- [ ] Create `requirements.txt`
+- [ ] Create `.env.example`
+- [ ] Create `config.py`
+
+## Phase 2: Utils
+- [ ] Create `utils/__init__.py`
+- [ ] Create `utils/logger.py`
+- [ ] Create `utils/http_client.py`
+- [ ] Create `utils/retry.py`
+- [ ] Create `utils/storage.py`
+
+## Phase 3: Models
+- [ ] Create `models/__init__.py`
+- [ ] Create `models/trend.py`
+- [ ] Create `models/idea.py`
+- [ ] Create `models/script.py`
+- [ ] Create `models/video.py`
+- [ ] Create `models/publish_result.py`
+
+## Phase 4: Scrapers
+- [ ] Create `scraper/__init__.py`
+- [ ] Create `scraper/base.py`
+- [ ] Create `scraper/reddit_scraper.py`
+- [ ] Create `scraper/google_trends_scraper.py`
+- [ ] Create `scraper/twitter_scraper.py`
+- [ ] Create `scraper/aggregator.py`
+
+## Phase 5: Ranking
+- [ ] Create `ranking/__init__.py`
+- [ ] Create `ranking/novelty_checker.py`
+- [ ] Create `ranking/scorer.py`
+- [ ] Create `ranking/ranker.py`
+
+## Phase 6: Generator
+- [ ] Create `generator/__init__.py`
+- [ ] Create `generator/prompt_builder.py`
+- [ ] Create `generator/script_validator.py`
+- [ ] Create `generator/script_writer.py`
+
+## Phase 7: Video
+- [ ] Create `video/__init__.py`
+- [ ] Create `video/tts_client.py`
+- [ ] Create `video/avatar_client.py`
+- [ ] Create `video/post_processor.py`
+- [ ] Create `video/producer.py`
+
+## Phase 8: Publisher
+- [ ] Create `publisher/__init__.py`
+- [ ] Create `publisher/base.py`
+- [ ] Create `publisher/hashtag_engine.py`
+- [ ] Create `publisher/instagram_publisher.py`
+- [ ] Create `publisher/youtube_publisher.py`
+- [ ] Create `publisher/scheduler.py`
+
+## Phase 9: Orchestration & CLI
+- [ ] Create `pipeline.py`
+- [ ] Create `main.py`
+- [ ] Create `README.md`
+
+## Phase 10: Verification
+- [ ] Run `python main.py --genre fitness --top-n 2 --dry-run`
+- [ ] Fix any import or type errors
